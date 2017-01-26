@@ -1,6 +1,9 @@
 *Work in progress*
 
 # SimpleSettings
+
+[![Build status](https://ci.appveyor.com/api/projects/status/c0r2yisa2ri8l3rg?svg=true)](https://ci.appveyor.com/project/Parkanizer/simplesettings)
+
 Simple library for reading app.config/web.config appSettings section.
 
 ## Why not just use ConfigurationManager?
@@ -22,7 +25,7 @@ Import it:
 using SimpleSettings;
 ```
 
-Use it:
+Get some settings:
 
 ``` C#
 // get your setting
