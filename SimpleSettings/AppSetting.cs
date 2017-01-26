@@ -16,8 +16,6 @@ namespace SimpleSettings
             _value = value;
         }
 
-        public bool IsSet => _value != null;
-
         public string Key { get; }
 
         private readonly string _value;
@@ -34,6 +32,8 @@ namespace SimpleSettings
                 return _value;
             }
         }
+
+        public bool IsSet => _value != null;
 
         public static implicit operator string(AppSetting setting) => setting.Value;
 

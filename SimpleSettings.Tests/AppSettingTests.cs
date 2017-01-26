@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace SimpleSettings
 {
     public class AppSettingTests
-    {
+    {   
         [TestCase("some-value", true)]
         [TestCase("", true)]
         [TestCase(null, false)]

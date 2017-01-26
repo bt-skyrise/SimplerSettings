@@ -4,6 +4,7 @@ namespace SimpleSettings
 {
     public static class AppSettings
     {
-        public static AppSetting Get(string key) => new AppSetting(key, ConfigurationManager.AppSettings[key]);
+        public static AppSetting Get(string key) =>
+            new AppSetting(key, ConfigurationManager.AppSettings[key]);
     }
 }
