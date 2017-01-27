@@ -1,6 +1,6 @@
 using System.Configuration;
 
-namespace SimpleSettings
+namespace SimplerSettings
 {
     public static class AppSettings
     {

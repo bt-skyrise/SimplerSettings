@@ -2,7 +2,7 @@
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace SimpleSettings
+namespace SimplerSettings.Tests
 {
     public class AppSettingTests
     {   

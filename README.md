@@ -2,7 +2,7 @@
 
 # SimplerSettings
 
-[![Build status](https://ci.appveyor.com/api/projects/status/c0r2yisa2ri8l3rg?svg=true)](https://ci.appveyor.com/project/Parkanizer/simplesettings)
+[![Build status](https://ci.appveyor.com/api/projects/status/c0r2yisa2ri8l3rg?svg=true)](https://ci.appveyor.com/project/Parkanizer/simplersettings)
 
 Simple library for reading app.config/web.config appSettings section.
 

@@ -1,6 +1,6 @@
 using System;
 
-namespace SimpleSettings
+namespace SimplerSettings
 {
     public class AppSetting
     {
