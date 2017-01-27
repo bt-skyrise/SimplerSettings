@@ -2,6 +2,8 @@
 using FluentAssertions;
 using NUnit.Framework;
 
+// ReSharper disable ObjectCreationAsStatement
+
 namespace SimplerSettings.Tests
 {
     public class AppSettingTests
@@ -42,6 +44,7 @@ namespace SimplerSettings.Tests
 
             Action gettingValue = () =>
             {
+                // ReSharper disable once UnusedVariable
                 var value = setting.Value;
             };
 
@@ -96,6 +99,14 @@ namespace SimplerSettings.Tests
             var setting = new AppSetting("Foo", settingValue);
 
             setting.AsInt().Should().Be(expectedResult);
+        }
+
+        [Test]
+        public void setting_key_is_mandatory()
+        {
+            Action creatingSetting = () => new AppSetting(null, "some value");
+
+            creatingSetting.ShouldThrow<ArgumentNullException>();
         }
     }
 }
