@@ -1,6 +1,6 @@
 *Work in progress*
 
-# SimpleSettings
+# SimplerSettings
 
 [![Build status](https://ci.appveyor.com/api/projects/status/c0r2yisa2ri8l3rg?svg=true)](https://ci.appveyor.com/project/Parkanizer/simplesettings)
 
@@ -16,13 +16,13 @@ Simple library for reading app.config/web.config appSettings section.
 Install it:
 
 ``` PowerShell
-Install-Package SimpleSettings
+Install-Package SimplerSettings
 ```
 
 Import it:
 
 ``` C#
-using SimpleSettings;
+using SimplerSettings;
 ```
 
 Get some settings:
