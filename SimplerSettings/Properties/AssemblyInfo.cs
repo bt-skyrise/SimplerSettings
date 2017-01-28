@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SimplerSettings")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Simple library for reading app settings.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleAppSettings")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCompany("BT Skyrise")]
+[assembly: AssemblyProduct("SimplerSettings")]
+[assembly: AssemblyCopyright("Copyright © BT Skyrise 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
